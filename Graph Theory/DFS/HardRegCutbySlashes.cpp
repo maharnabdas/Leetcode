@@ -1,4 +1,11 @@
 // https://leetcode.com/problems/regions-cut-by-slashes/solutions/205674/dfs-on-upscaled-grid/
+// https://www.youtube.com/watch?v=zMqgIbLLsc4 ; Video solution to question
+// Whenever dealing with symbols, for ex: '/', '\\', ' ' etc. convert them into something computable. In this question that means 3 * 3 matrices.
+/*
+    / = 0 0 1   \ = 1 0 0   ' ' = 0 0 0
+        0 1 0       0 1 0         0 0 0
+        1 0 0       0 0 1         0 0 0
+*/
 #include <iostream>
 #include <vector>
 #include <string>
